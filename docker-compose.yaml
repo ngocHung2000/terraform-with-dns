@@ -6,7 +6,7 @@ services:
     image: ubuntu/bind9:9.18-23.04_edge
     environment:
       - BIND9_USER=root
-      - TZ=Europe/Berlin
+      - TZ=Asia/Ho_Chi_Minh
     volumes:
       - ./config/:/etc/bind:rw
     network_mode: host
